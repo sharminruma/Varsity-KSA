@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLP1 practice1</title>
+</head>
+<body>
+    <h2>Unorder list</h2>
+    <ul>
+        <li>Circle</li>
+        <li>Square</li>
+        <li>Disc</li>
+        <li>None</li>
+    </ul>
+    <h2>nested list tag</h2>
+    <ul type="Square">
+        <li>Rice</li>
+        <li>Noodless</li>
+        <li>Curray</li>
+        <ul type="Circle">
+            <li>Meat</li>
+            <li>Chicken</li>
+            <li>Egg</li>
+        </ul>
+        <li>Cold Drinks</li>
+        <ul>
+            <li>7 up</li>
+            <li>Mojo</li>
+            <li>Coca cola</li>
+        </ul>
+    </ul>
+    <h2>Order list</h2>
+    <ol type="A">
+        <li>Ruma</li>
+        <li>Sharmin</li>
+        <li>Takrim</li>
+        <ol type="I">
+            <li>Sajid</li>
+            <li>Sakib</li>
+            <li>Sumaiya</li>
+        </ol>
+        <li>Sojol</li>
+        <ol type="i" start="4">
+            <li>Sojib</li>
+            <li>Sami</li>
+        </ol>
+    </ol>
+    <h2>Description list</h2>
+    <dl>
+        <dt>Html</dt>
+        <dd>Hyper text markup language</dd>
+        <dt>CSS</dt>
+        <dd>Casecading Styel sheet</dd>
+    </dl>
+    <h2>Table tag</h2>
+    <table border="1" height="100" width="100"  callpadding="10" cellspacing="5">
+        <caption>Information</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+        </tr>
+        <tr valign="left">
+           <td>Sharmin</td>
+           <td>24</td>
+           <td>Pabna</td>
+        </tr>
+        <tr>
+            <td>Shermin</td>
+            <td colspan="2">Unknown</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Unknown</td>
+            <td>23</td>
+            <td>Dhaka</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td align="center">Savar</td>
+        </tr>
+
+
+    </table>
+    <h2>Creating Form</h2>
+    <form>
+        <input type="image" src="Images/study.jpg" height="100" width="100"> <br><br>
+        <label for="A">Student Name:</label>
+        <input type="text" name="" id="A" placeholder="Your Name" size="20" > <br> <br>
+        <label for="B">Student ID:</label>
+        <input type="number"  id="B" placeholder="Enter Your StudentID"> <br> <br>
+        <label for="C">Email:</label>
+        <input type="email" name="" id="C" placeholder="Enter your Email"> <br> <br>
+        <label for="D">Date of birth:</label>
+        <input type="date" name="" id="D" placeholder="Enter Your date of birth"> <br> <br>
+        Gender: <br>
+        <input type="radio" name="gender" id="M">Male <br>
+        <input type="radio" name="gender" id="F">Female <br>
+        <br>
+        Language: <br>
+        <input type="checkbox" name="language" id="b">Bangla
+        <br>
+        <input type="checkbox" name="language" id="e">English <br>
+        <input type="checkbox" name="language" id="a">Arabi
+        <br>
+        Country: <br> 
+        <select name="Country" >
+            <option> (Please Select Your Country</option>
+            <option value="b"> Bangladesh</option>
+            <option value="a">America</option>
+            <option value="b">Brazil</option>
+        </select>
+        <br> <br>
+        <label for="g">Address:</label> <br>
+        <textarea id="g" cols="10" rows="5"></textarea> <br>
+        Attach your document:
+        <br>
+        <input type="file" name="Document" id=""> <br>
+        <br><br>
+    <input type="button" value="Submit"> <br> <br>
+    <input type="reset" value="Reset">
+    </form> 
+    <h1> Log in form</h1>
+    <form action="">
+        UserName: <input type="text" pattern="[A-Z]{4}-[0-9] {3}-[a-z]{2}"> <br> <br>
+        Password: <input type="password" pattern="[A-Z a-z 0-9]{3 ,20}"> <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    
+       
+
+
+</body>
+</html>
